@@ -3,6 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+      <url>
+            <loc>/posts/</loc>
+            <priority>0</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/posts/algorithm/</loc>
+            <priority>0</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/posts/machine-learning/</loc>
+            <priority>0</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/posts/optimization/</loc>
+            <priority>0</priority>
+          </url>
+    
   
     
       <url>
