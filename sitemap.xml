@@ -3,18 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-      <url>
-            <loc>/posts/</loc>
-            <priority>0</priority>
-          </url>
-    
   
     
       <url>
             <loc>/</loc>
+            <lastmod>2023-03-21T00:00:00+00:00</lastmod>
           </url>
     
   
+    
+      <url>
+            <loc>/algorithm/homepage-layout/</loc>
+            <lastmod>2023-03-21T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>/algorithm/</loc>
+            <lastmod>2023-03-21T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/machine-learning/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/others/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/optimization/</loc>
+          </url>
     
   
 </urlset>
