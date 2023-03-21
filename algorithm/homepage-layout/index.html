@@ -110,7 +110,7 @@
     "keywords": ["算法"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "3"
+    "wordCount": "74"
   }]
   </script>
 
@@ -132,6 +132,142 @@
 
 
 
+
+  
+  
+  <link
+    type="text/css" rel="stylesheet"
+    href="/lib/katex/katex.min.990c289bc36ce28a7e1f6f680e40ff2d73bf3ac5cfbc215f92066414056b86178fcd12d4f0d508dcd926e373615944a68f7a7909c6b61d3124310997411c0341.css"
+    integrity="sha512-mQwom8Ns4op&#43;H29oDkD/LXO/OsXPvCFfkgZkFAVrhhePzRLU8NUI3Nkm43NhWUSmj3p5Cca2HTEkMQmXQRwDQQ=="
+  />
+  
+  
+  <script defer src="/lib/katex/katex.min.b0748d2c40912522be045b3b13c0e215cea97fa9fdd1b2c8f391268b0d6386b79db9984add55e0abd978900b7d79320760072e4012872f4d502ace3fdd7825f2.js" integrity="sha512-sHSNLECRJSK&#43;BFs7E8DiFc6pf6n90bLI85Emiw1jhreduZhK3VXgq9l4kAt9eTIHYAcuQBKHL01QKs4/3Xgl8g=="></script>
+  
+  
+  <script defer src="/lib/katex/auto-render.min.8968ae052e67b7aafad1f0b3dba35dd19a9ed276e4d594c841b9772afee462c5fec8a314147ce3687dbe02733abe9d97b3e80d99a0405562634a6b8fc3be847e.js" integrity="sha512-iWiuBS5nt6r60fCz26Nd0Zqe0nbk1ZTIQbl3Kv7kYsX&#43;yKMUFHzjaH2&#43;AnM6vp2Xs&#43;gNmaBAVWJjSmuPw76Efg==" onload="renderMathInElement(document.body);"></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
 
 
   
@@ -406,9 +542,56 @@
     </header>
     <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
       
-      <div class="min-w-0 min-h-0 max-w-prose grow">
-        <p>二分查找是时间复杂度为 $O(\log n)$</p>
+        <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+          <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
+            <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600"
+  >
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#二分查找的基本思想">二分查找的基本思想</a></li>
+    <li><a href="#二分查找的实现">二分查找的实现</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
 
+          </div>
+        </div>
+      
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        
+
+<p>二分查找是时间复杂度为 \(O(\log n\)) 的算法，相比其他查找算法，其时间复杂度很低。本文将介绍二分查找的基本思想，以及如何实现二分查找。</p>
+<h2 id="二分查找的基本思想" class="relative group">二分查找的基本思想 <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%ba%8c%e5%88%86%e6%9f%a5%e6%89%be%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%80%9d%e6%83%b3" aria-label="锚点">#</a></span></h2>
+<pre><code>一句话总结：二分再二分，直到找到目标。
+</code></pre>
+<p>从最简单的情况开始分析，假设我们的数组 \(a_1,\ldots,a_n\) 从小到大排列，如果想要查找其中的一个数 \(a_i\)，最笨的方法是从第一个数开始，一个一个地查找，直到找到这个数为止，最坏的情况就是最后一个数是我们要找的数，故这种查找的时间复杂度为 \(O(n)\)。</p>
+<p>我们可以将中间的数 \( a_{\lfloor n/2 \rfloor} \) 取出来和目标 \( a_i \) 进行比较， 如果中间值比目标值大，因为数组是有序的，那么目标值一定在数组的左半部分，否则目标值一定在数组的右半部分，这样我们就将查找的范围缩小了一半，如此往复我们就可以找到这个数，这种查找的时间复杂度为 \(O(\log n)\)。</p>
+<h2 id="二分查找的实现" class="relative group">二分查找的实现 <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%ba%8c%e5%88%86%e6%9f%a5%e6%89%be%e7%9a%84%e5%ae%9e%e7%8e%b0" aria-label="锚点">#</a></span></h2>
+<p>二分查找的实现非常简单，我们只需要将上面的思想用代码实现即可。不过注意边界值的处理。
+代码如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">search</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">nums</span><span class="o">,</span> <span class="kt">int</span> <span class="n">target</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">left</span> <span class="o">=</span> <span class="n">0</span><span class="o">,</span> <span class="n">right</span> <span class="o">=</span> <span class="n">nums</span><span class="o">.</span><span class="na">length</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span><span class="o">(</span><span class="n">left</span><span class="o">&lt;</span><span class="n">right</span><span class="o">){</span> <span class="c1">//不包含右节点,所以一开始right=nums.length-1+1
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="kt">int</span> <span class="n">middle</span> <span class="o">=</span> <span class="n">left</span><span class="o">+</span> <span class="o">(</span><span class="n">right</span><span class="o">-</span><span class="n">left</span> <span class="o">&gt;&gt;</span> <span class="n">1</span><span class="o">);</span><span class="c1">//防止数组溢出，运用位运算相当于除以2，效率更高（在什么情况下会溢出？）
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="k">if</span><span class="o">(</span><span class="n">nums</span><span class="o">[</span><span class="n">middle</span><span class="o">]&gt;</span><span class="n">target</span><span class="o">){</span> <span class="c1">//如果中间值比目标值大，目标值一定在数组的左半部分
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">right</span> <span class="o">=</span> <span class="n">middle</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span><span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">nums</span><span class="o">[</span><span class="n">middle</span><span class="o">]&lt;</span><span class="n">target</span><span class="o">){</span> <span class="c1">////如果中间值比目标值小，目标值一定在数组的右半部分
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>                <span class="n">left</span> <span class="o">=</span> <span class="n">middle</span> <span class="o">+</span> <span class="n">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span><span class="k">else</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">middle</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="o">-</span><span class="n">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span></code></pre></div>
       </div>
     </section>
     <footer class="pt-8 max-w-prose print:hidden">
