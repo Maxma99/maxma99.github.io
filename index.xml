@@ -6,7 +6,16 @@
     <description>Recent content in Welcome to Congo!  on Max</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>排序算法</title>
+      <link>/algorithm/sorting/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/algorithm/sorting/</guid>
+      <description>Under Construction 排序算法非常多，本文将介绍十种热门常见的排序算法，包括冒泡排序、插入排序、选择排序、归并排序、快速排序、堆排序、计数排序、桶排序、基数排序、希尔排序等等等等。另外，作为一篇算法的小记，内容可能不太详尽，详细内容可以看菜鸟教程中的排序算法部分，本文是这些算法的简单介绍和实现。</description>
+    </item>
+    
     <item>
       <title>二分查找</title>
       <link>/algorithm/binarysearch/</link>
