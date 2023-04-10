@@ -3,9 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+  
+    
       <url>
-            <loc>/machine-learning/macos-tf-install/</loc>
-            <lastmod>2023-03-31T00:00:00+00:00</lastmod>
+            <loc>/</loc>
+            <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/algorithm/</loc>
+            <lastmod>2023-04-10T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -13,7 +22,14 @@
   
     
       <url>
-            <loc>/</loc>
+            <loc>/algorithm/regex-notes/</loc>
+            <lastmod>2023-04-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/machine-learning/macos-tf-install/</loc>
             <lastmod>2023-03-31T00:00:00+00:00</lastmod>
           </url>
     
@@ -34,13 +50,6 @@
           </url>
     
   
-    
-  
-    
-      <url>
-            <loc>/algorithm/</loc>
-            <lastmod>2023-03-28T00:00:00+00:00</lastmod>
-          </url>
     
   
     
