@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Common Optimization Algorithms in Machine Learning</title>
-      <link>/optimization/ml-opt-algo/</link>
+      <link>/optimization/ml_opt_algo/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/optimization/ml-opt-algo/</guid>
+      <guid>/optimization/ml_opt_algo/</guid>
       <description></description>
     </item>
     

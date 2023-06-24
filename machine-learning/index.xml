@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>机器学习 on Max&#39;s Blog</title>
+    <title>Machine Learning on Max&#39;s Blog</title>
     <link>/machine-learning/</link>
-    <description>Recent content in 机器学习 on Max&#39;s Blog</description>
+    <description>Recent content in Machine Learning on Max&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/machine-learning/index.xml" rel="self" type="application/rss+xml" />

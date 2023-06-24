@@ -3,8 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+  
+    
       <url>
-            <loc>/optimization/ml-opt-algo/</loc>
+            <loc>/others/chatgpt-prompts/</loc>
+            <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/optimization/ml_opt_algo/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
@@ -16,6 +25,13 @@
           </url>
     
   
+    
+  
+    
+      <url>
+            <loc>/machine-learning/</loc>
+            <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+          </url>
     
   
     
@@ -43,7 +59,7 @@
   
     
       <url>
-            <loc>/machine-learning/</loc>
+            <loc>/others/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
@@ -87,12 +103,6 @@
           </url>
     
   
-    
-  
-    
-      <url>
-            <loc>/others/</loc>
-          </url>
     
   
 </urlset>
