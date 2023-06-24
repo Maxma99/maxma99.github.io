@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT (or other chatbots) prompts</title>
-      <link>/others/chatgpt-prompts/</link>
+      <link>/others/chatgpt_prompts/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/others/chatgpt-prompts/</guid>
+      <guid>/others/chatgpt_prompts/</guid>
       <description>This article gives some example on ChatGPT prompts and other chatbots prompts, you can copy and paste them in the chatbot to use them as you wish.</description>
     </item>
     
@@ -27,19 +27,19 @@
     
     <item>
       <title>Fundamental Knowledge of PyTorch</title>
-      <link>/machine-learning/pytorch-preliminary/</link>
+      <link>/machine_learning/pytorch-preliminary/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/machine-learning/pytorch-preliminary/</guid>
+      <guid>/machine_learning/pytorch-preliminary/</guid>
       <description>Fundamental knowledge of PyTorch</description>
     </item>
     
     <item>
       <title>Summary of Common Deep Learning Models</title>
-      <link>/machine-learning/pytorch-preliminary/</link>
+      <link>/machine_learning/pytorch-preliminary/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/machine-learning/pytorch-preliminary/</guid>
+      <guid>/machine_learning/pytorch-preliminary/</guid>
       <description>Some fundamental knowledge of PyTorch</description>
     </item>
     
@@ -54,10 +54,10 @@
     
     <item>
       <title>MacOS Tensorflow Installation Guide (For Apple Silicon)</title>
-      <link>/machine-learning/macos-tf-install/</link>
+      <link>/machine_learning/macos-tf-install/</link>
       <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/machine-learning/macos-tf-install/</guid>
+      <guid>/machine_learning/macos-tf-install/</guid>
       <description>Step-by-step guide to installing Tensorflow on MacOS for Apple Silicon</description>
     </item>
     

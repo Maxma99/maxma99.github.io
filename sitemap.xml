@@ -6,7 +6,7 @@
   
     
       <url>
-            <loc>/others/chatgpt-prompts/</loc>
+            <loc>/others/chatgpt_prompts/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
@@ -20,7 +20,7 @@
   
     
       <url>
-            <loc>/machine-learning/pytorch-preliminary/</loc>
+            <loc>/machine_learning/pytorch-preliminary/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
@@ -29,7 +29,7 @@
   
     
       <url>
-            <loc>/machine-learning/</loc>
+            <loc>/machine_learning/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
@@ -43,7 +43,7 @@
   
     
       <url>
-            <loc>/machine-learning/pytorch-preliminary/</loc>
+            <loc>/machine_learning/pytorch-preliminary/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
@@ -82,7 +82,7 @@
   
     
       <url>
-            <loc>/machine-learning/macos-tf-install/</loc>
+            <loc>/machine_learning/macos-tf-install/</loc>
             <lastmod>2023-03-31T00:00:00+00:00</lastmod>
           </url>
     

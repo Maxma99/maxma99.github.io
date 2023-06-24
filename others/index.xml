@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/others/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT (or other chatbots) prompts</title>
-      <link>/others/chatgpt-prompts/</link>
+      <link>/others/chatgpt_prompts/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/others/chatgpt-prompts/</guid>
+      <guid>/others/chatgpt_prompts/</guid>
       <description>This article gives some example on ChatGPT prompts and other chatbots prompts, you can copy and paste them in the chatbot to use them as you wish.</description>
     </item>
     

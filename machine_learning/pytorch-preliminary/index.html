@@ -19,14 +19,14 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Binary Search &middot; Max&#39;s Blog</title>
-    <meta name="title" content="Binary Search &middot; Max&#39;s Blog" />
+  <title>Fundamental Knowledge of PyTorch &middot; Max&#39;s Blog</title>
+    <meta name="title" content="Fundamental Knowledge of PyTorch &middot; Max&#39;s Blog" />
   
   <meta name="description" content=" " />
   
   
   
-  <link rel="canonical" href="/algorithm/binarysearch/" />
+  <link rel="canonical" href="/machine_learning/pytorch-preliminary/" />
   
   
   
@@ -74,15 +74,15 @@
   
   
   
-  <meta property="og:title" content="Binary Search" />
+  <meta property="og:title" content="Fundamental Knowledge of PyTorch" />
 <meta property="og:description" content=" " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/algorithm/binarysearch/" /><meta property="article:section" content="Algorithm" />
-<meta property="article:published_time" content="2023-03-21T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-03-21T00:00:00+00:00" />
+<meta property="og:url" content="/machine_learning/pytorch-preliminary/" /><meta property="article:section" content="Machine_Learning" />
+<meta property="article:published_time" content="2023-04-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-04-20T00:00:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Binary Search"/>
+<meta name="twitter:title" content="Fundamental Knowledge of PyTorch"/>
 <meta name="twitter:description" content=" "/>
 
   
@@ -90,27 +90,27 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Algorithms",
-    "name": "Binary Search",
-    "headline": "Binary Search",
+    "articleSection": "Machine Learning",
+    "name": "Fundamental Knowledge of PyTorch",
+    "headline": "Fundamental Knowledge of PyTorch",
     "description": " ",
-    
+    "abstract": "Fundamental knowledge of PyTorch",
     "inLanguage": "en",
-    "url" : "\/algorithm\/binarysearch\/",
+    "url" : "\/machine_learning\/pytorch-preliminary\/",
     "author" : {
       "@type": "Person",
       "name": "Max"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-03-21T00:00:00\u002b00:00",
-    "datePublished": "2023-03-21T00:00:00\u002b00:00",
+    "dateCreated": "2023-04-20T00:00:00\u002b00:00",
+    "datePublished": "2023-04-20T00:00:00\u002b00:00",
     
-    "dateModified": "2023-03-21T00:00:00\u002b00:00",
+    "dateModified": "2023-04-20T00:00:00\u002b00:00",
     
-    "keywords": ["Algorithms","BinarySearch"],
+    "keywords": ["Machine Learning"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "378"
+    "wordCount": "215"
   }]
   </script>
 
@@ -447,8 +447,8 @@
   <li class="inline ">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/algorithm/"
-      >Algorithms</a
+      href="/machine_learning/"
+      >Machine Learning</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -456,8 +456,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/algorithm/binarysearch/"
-      >Binary Search</a
+      href="/machine_learning/pytorch-preliminary/"
+      >Fundamental Knowledge of PyTorch</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -466,7 +466,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Binary Search
+        Fundamental Knowledge of PyTorch
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -501,7 +501,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-03-21 00:00:00 &#43;0000 UTC">21 March 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2023-04-20 00:00:00 &#43;0000 UTC">20 April 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -528,8 +528,7 @@
   <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#basic-idea-of-binary-search">Basic Idea of Binary Search</a></li>
-    <li><a href="#implementation-of-binary-search">Implementation of Binary Search</a></li>
+    <li><a href="#some-example-code-and-explanations">Some Example Code and Explanations</a></li>
   </ul>
 </nav>
   </div>
@@ -541,29 +540,45 @@
       <div class="min-w-0 min-h-0 max-w-prose grow">
         
 
-<p>Binary search is an algorithm with a time complexity of \(O(\log n)\). Compared to other search algorithms, it has a low time complexity. This article will introduce the basic idea of binary search and how to implement it.</p>
-<h2 id="basic-idea-of-binary-search" class="relative group">Basic Idea of Binary Search <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#basic-idea-of-binary-search" aria-label="Anchor">#</a></span></h2>
-<pre><code>In a nutshell: Divide and conquer until the target is found.
-</code></pre>
-<p>Let&rsquo;s start by analyzing the simplest case. Suppose we have an array \(a_1,\ldots,a_n\) sorted in ascending order. If we want to find a specific number \(a_i\), the brute-force method would be to start from the first number and search one by one until we find the desired number. In the worst case, the target number is the last number, resulting in a time complexity of \(O(n)\) for this search.</p>
-<p>Instead, we can take out the middle number \(a_{\lfloor n/2 \rfloor}\) and compare it with the target \(a_i\). If the middle value is greater than the target value, since the array is sorted, the target value must be in the left half of the array. Otherwise, the target value must be in the right half of the array. This way, we narrow down the search range by half each time, and we can eventually find the target number. The time complexity of this search is \(O(\log n)\).</p>
-<h2 id="implementation-of-binary-search" class="relative group">Implementation of Binary Search <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#implementation-of-binary-search" aria-label="Anchor">#</a></span></h2>
-<p>The implementation of binary search is straightforward. We just need to translate the above idea into code, taking care of handling the boundary values. Here&rsquo;s the code in Java:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kt">int</span> <span class="nf">search</span><span class="o">(</span><span class="kt">int</span><span class="o">[]</span> <span class="n">nums</span><span class="o">,</span> <span class="kt">int</span> <span class="n">target</span><span class="o">)</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">left</span> <span class="o">=</span> <span class="mi">0</span><span class="o">,</span> <span class="n">right</span> <span class="o">=</span> <span class="n">nums</span><span class="o">.</span><span class="na">length</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">while</span><span class="o">(</span><span class="n">left</span> <span class="o">&lt;</span> <span class="n">right</span><span class="o">)</span> <span class="o">{</span> <span class="c1">// Excluding the right node, so initially right = nums.length-1+1
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">int</span> <span class="n">middle</span> <span class="o">=</span> <span class="n">left</span> <span class="o">+</span> <span class="o">(</span><span class="n">right</span> <span class="o">-</span> <span class="n">left</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span><span class="o">);</span> <span class="c1">// To prevent array overflow, bitwise operation is used instead of division by 2 for better efficiency (When does overflow occur?)
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">if</span><span class="o">(</span><span class="n">nums</span><span class="o">[</span><span class="n">middle</span><span class="o">]</span> <span class="o">&gt;</span> <span class="n">target</span><span class="o">)</span> <span class="o">{</span> <span class="c1">// If the middle value is greater than the target value, the target value must be in the left half of the array
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="n">right</span> <span class="o">=</span> <span class="n">middle</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">        <span class="o">}</span> <span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">nums</span><span class="o">[</span><span class="n">middle</span><span class="o">]</span> <span class="o">&lt;</span> <span class="n">target</span><span class="o">)</span> <span class="o">{</span> <span class="c1">// If the middle value is less than the target value, the target value must be in the right half of the array
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="n">left</span> <span class="o">=</span> <span class="n">middle</span> <span class="o">+</span> <span class="mi">1</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">        <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">middle</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">        <span class="o">}</span>
-</span></span><span class="line"><span class="cl">    <span class="o">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="o">}</span>
-</span></span></code></pre></div>
+<p>First, here are some references for PyTorch:</p>
+<ol>
+<li><a
+  href="https://pytorch.org/docs/stable/index.html"
+  
+  target="_blank" rel="noreferrer noopener"
+>PyTorch Official Documentation</a></li>
+<li><a
+  href="https://zh.d2l.ai/index.html"
+  
+  target="_blank" rel="noreferrer noopener"
+>Dive into Deep Learning</a></li>
+</ol>
+<h2 id="some-example-code-and-explanations" class="relative group">Some Example Code and Explanations <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#some-example-code-and-explanations" aria-label="Anchor">#</a></span></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span> <span class="k">as</span> <span class="nn">pt</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">X</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span> <span class="c1"># Equivalent to the next line (specify one dimension and automatically calculate the other)</span>
+</span></span><span class="line"><span class="cl"><span class="n">XX</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">pt</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span> <span class="c1"># Create a four-dimensional tensor of zeros</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span> <span class="c1"># Random tensor from a normal distribution</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">pt</span><span class="o">.</span><span class="n">tensor</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">2</span><span class="p">]])</span> <span class="c1"># Manually input a 2D tensor</span>
+</span></span><span class="line"><span class="cl"><span class="n">addd</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="c1"># Element-wise addition</span>
+</span></span><span class="line"><span class="cl"><span class="n">subb</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl"><span class="n">mutt</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl"><span class="n">divw</span> <span class="o">=</span> <span class="n">x</span> <span class="o">/</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl"><span class="n">poww</span> <span class="o">=</span> <span class="n">x</span> <span class="o">**</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl"><span class="n">expp</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">rcat</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">cat</span><span class="p">((</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">),</span><span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1"># Concatenate along rows, dim=1 concatenates along columns</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">==</span> <span class="n">y</span> <span class="c1"># Check if the values at corresponding positions in two matrices are equal and output a boolean matrix</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="c1"># Sum all values in the tensor</span>
+</span></span></code></pre></div><p>The broadcasting mechanism is used to perform element-wise operations. The mechanism works as follows:</p>
+<ol>
+<li>The arrays are extended by copying the elements appropriately so that, after the transformation, the two tensors have the same shape.</li>
+<li>Element-wise operations are performed on the resulting arrays.</li>
+</ol>
+<p>PyTorch constructs a computational graph based on the designed model to perform automatic differentiation and calculate gradients, and then performs backpropagation to update the parameters.</p>
+
       </div>
     </section>
     <footer class="pt-8 max-w-prose print:hidden">
@@ -638,7 +653,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://twitter.com/intent/tweet/?url=/algorithm/binarysearch/&amp;text=Binary%20Search"
+          href="https://twitter.com/intent/tweet/?url=/machine_learning/pytorch-preliminary/&amp;text=Fundamental%20Knowledge%20of%20PyTorch"
           title="Tweet on Twitter"
           aria-label="Tweet on Twitter"
           target="_blank"
@@ -651,7 +666,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://reddit.com/submit/?url=/algorithm/binarysearch/&amp;resubmit=true&amp;title=Binary%20Search"
+          href="https://reddit.com/submit/?url=/machine_learning/pytorch-preliminary/&amp;resubmit=true&amp;title=Fundamental%20Knowledge%20of%20PyTorch"
           title="Submit to Reddit"
           aria-label="Submit to Reddit"
           target="_blank"
@@ -674,27 +689,27 @@
       <div class="flex justify-between pt-3">
         <span>
           
-        </span>
-        <span>
-          
-            <a class="group flex text-right" href="/algorithm/sorting/">
+            <a class="group flex" href="/machine_learning/pytorch-preliminary/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Sorting Algorithms</span
+                  >Summary of Common Deep Learning Models</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-03-28 00:00:00 &#43;0000 UTC">28 March 2023</time>
+                    <time datetime="2023-04-20 00:00:00 &#43;0000 UTC">20 April 2023</time>
                   
                 </span>
               </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
             </a>
+          
+        </span>
+        <span>
           
         </span>
       </div>
