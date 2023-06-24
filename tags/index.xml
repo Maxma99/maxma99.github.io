@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Max&#39;s Blog</title>
-    <link>/tags/</link>
+    <link>https://maxma99.github.io/tags/</link>
     <description>Recent content in Tags on Max&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://maxma99.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT</title>
-      <link>/tags/chatgpt/</link>
+      <link>https://maxma99.github.io/tags/chatgpt/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/chatgpt/</guid>
+      <guid>https://maxma99.github.io/tags/chatgpt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>/tags/machine-learning/</link>
+      <link>https://maxma99.github.io/tags/machine-learning/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/machine-learning/</guid>
+      <guid>https://maxma99.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regular Expressions</title>
-      <link>/tags/regular-expressions/</link>
+      <link>https://maxma99.github.io/tags/regular-expressions/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/regular-expressions/</guid>
+      <guid>https://maxma99.github.io/tags/regular-expressions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algorithms</title>
-      <link>/tags/algorithms/</link>
+      <link>https://maxma99.github.io/tags/algorithms/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/algorithms/</guid>
+      <guid>https://maxma99.github.io/tags/algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BinarySearch</title>
-      <link>/tags/binarysearch/</link>
+      <link>https://maxma99.github.io/tags/binarysearch/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/binarysearch/</guid>
+      <guid>https://maxma99.github.io/tags/binarysearch/</guid>
       <description></description>
     </item>
     

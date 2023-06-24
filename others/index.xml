@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>其他 on Max&#39;s Blog</title>
-    <link>/others/</link>
+    <link>https://maxma99.github.io/others/</link>
     <description>Recent content in 其他 on Max&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/others/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://maxma99.github.io/others/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT (or other chatbots) prompts</title>
-      <link>/others/chatgpt_prompts/</link>
+      <link>https://maxma99.github.io/others/chatgpt_prompts/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/others/chatgpt_prompts/</guid>
+      <guid>https://maxma99.github.io/others/chatgpt_prompts/</guid>
       <description>This article gives some example on ChatGPT prompts and other chatbots prompts, you can copy and paste them in the chatbot to use them as you wish.</description>
     </item>
     

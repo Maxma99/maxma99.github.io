@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BinarySearch on Max&#39;s Blog</title>
-    <link>/tags/binarysearch/</link>
+    <link>https://maxma99.github.io/tags/binarysearch/</link>
     <description>Recent content in BinarySearch on Max&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/binarysearch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://maxma99.github.io/tags/binarysearch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Binary Search</title>
-      <link>/algorithm/binarysearch/</link>
+      <link>https://maxma99.github.io/algorithm/binarysearch/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/algorithm/binarysearch/</guid>
+      <guid>https://maxma99.github.io/algorithm/binarysearch/</guid>
       <description></description>
     </item>
     
