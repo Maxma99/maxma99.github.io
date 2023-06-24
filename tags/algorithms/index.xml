@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms on Max&#39;s Blog</title>
+    <link>/tags/algorithms/</link>
+    <description>Recent content in Algorithms on Max&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sorting Algorithms</title>
+      <link>/algorithm/sorting/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/algorithm/sorting/</guid>
+      <description>Under Construction There are numerous sorting algorithms, and this article will introduce ten popular and commonly used sorting algorithms, including bubble sort, insertion sort, selection sort, merge sort, quicksort, heap sort, counting sort, bucket sort, radix sort, and shell sort, among others.</description>
+    </item>
+    
+    <item>
+      <title>Binary Search</title>
+      <link>/algorithm/binarysearch/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/algorithm/binarysearch/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

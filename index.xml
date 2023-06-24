@@ -1,41 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to Congo!  on Max</title>
+    <title>Welcome to Congo!  on Max&#39;s Blog</title>
     <link>/</link>
-    <description>Recent content in Welcome to Congo!  on Max</description>
+    <description>Recent content in Welcome to Congo!  on Max&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>正则表达式快速入门</title>
+      <title>Fundamental Knowledge of PyTorch</title>
+      <link>/machine-learning/pytorch-preliminary/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/pytorch-preliminary/</guid>
+      <description>Fundamental knowledge of PyTorch</description>
+    </item>
+    
+    <item>
+      <title>Summary of Common Deep Learning Models</title>
+      <link>/machine-learning/pytorch-preliminary/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/machine-learning/pytorch-preliminary/</guid>
+      <description>Some fundamental knowledge of PyTorch</description>
+    </item>
+    
+    <item>
+      <title>机器学习常用优化算法</title>
+      <link>/optimization/ml-opt-algo/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/optimization/ml-opt-algo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quick Start to Regular Expressions</title>
       <link>/algorithm/regex-notes/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>/algorithm/regex-notes/</guid>
-      <description>一个正则表达式的快速入门</description>
+      <description>A quick start guide to regular expressions</description>
     </item>
     
     <item>
-      <title>MacOS Tensorflow安装指南（For Apple Silicon）</title>
+      <title>MacOS Tensorflow Installation Guide (For Apple Silicon)</title>
       <link>/machine-learning/macos-tf-install/</link>
       <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/machine-learning/macos-tf-install/</guid>
-      <description>教你一步步在MacOS如何&lt;del&gt;折腾&lt;/del&gt;安装Tensorflow</description>
+      <description>Step-by-step guide to installing Tensorflow on MacOS for Apple Silicon</description>
     </item>
     
     <item>
-      <title>排序算法</title>
+      <title>Sorting Algorithms</title>
       <link>/algorithm/sorting/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/algorithm/sorting/</guid>
-      <description>Under Construction 排序算法非常多，本文将介绍十种热门常见的排序算法，包括冒泡排序、插入排序、选择排序、归并排序、快速排序、堆排序、计数排序、桶排序、基数排序、希尔排序等等等等。另外，作为一篇算法的小记，内容可能不太详尽，详细内容可以看菜鸟教程中的排序算法部分，本文是这些算法的简单介绍和实现。</description>
+      <description>Under Construction There are numerous sorting algorithms, and this article will introduce ten popular and commonly used sorting algorithms, including bubble sort, insertion sort, selection sort, merge sort, quicksort, heap sort, counting sort, bucket sort, radix sort, and shell sort, among others.</description>
     </item>
     
     <item>
-      <title>二分查找</title>
+      <title>Binary Search</title>
       <link>/algorithm/binarysearch/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
       

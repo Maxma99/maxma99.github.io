@@ -1,36 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Max</title>
+    <title>Tags on Max&#39;s Blog</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Max</description>
+    <description>Recent content in Tags on Max&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>正则表达式</title>
-      <link>/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link>
-      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <title>Machine Learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</guid>
+      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>机器学习</title>
       <link>/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>算法</title>
-      <link>/tags/%E7%AE%97%E6%B3%95/</link>
+      <title>Regular Expressions</title>
+      <link>/tags/regular-expressions/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/regular-expressions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms</title>
+      <link>/tags/algorithms/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/%E7%AE%97%E6%B3%95/</guid>
+      <guid>/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BinarySearch</title>
+      <link>/tags/binarysearch/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/binarysearch/</guid>
       <description></description>
     </item>
     
