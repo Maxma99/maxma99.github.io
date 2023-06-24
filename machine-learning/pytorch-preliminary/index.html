@@ -19,8 +19,8 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Summary of Common Deep Learning Models &middot; Max&#39;s Blog</title>
-    <meta name="title" content="Summary of Common Deep Learning Models &middot; Max&#39;s Blog" />
+  <title>Fundamental Knowledge of PyTorch &middot; Max&#39;s Blog</title>
+    <meta name="title" content="Fundamental Knowledge of PyTorch &middot; Max&#39;s Blog" />
   
   <meta name="description" content=" " />
   
@@ -74,7 +74,7 @@
   
   
   
-  <meta property="og:title" content="Summary of Common Deep Learning Models" />
+  <meta property="og:title" content="Fundamental Knowledge of PyTorch" />
 <meta property="og:description" content=" " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/machine-learning/pytorch-preliminary/" /><meta property="article:section" content="Machine Learning" />
@@ -82,7 +82,7 @@
 <meta property="article:modified_time" content="2023-04-20T00:00:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Summary of Common Deep Learning Models"/>
+<meta name="twitter:title" content="Fundamental Knowledge of PyTorch"/>
 <meta name="twitter:description" content=" "/>
 
   
@@ -91,10 +91,10 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "机器学习",
-    "name": "Summary of Common Deep Learning Models",
-    "headline": "Summary of Common Deep Learning Models",
+    "name": "Fundamental Knowledge of PyTorch",
+    "headline": "Fundamental Knowledge of PyTorch",
     "description": " ",
-    "abstract": "Some fundamental knowledge of PyTorch",
+    "abstract": "Fundamental knowledge of PyTorch",
     "inLanguage": "en",
     "url" : "\/machine-learning\/pytorch-preliminary\/",
     "author" : {
@@ -110,7 +110,7 @@
     "keywords": ["Machine Learning"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "215"
   }]
   </script>
 
@@ -364,7 +364,7 @@
                   
                     <a
                       href="/optimization/"
-                      title="运筹优化"
+                      title="Operations Research and Optimization"
                       
                       ><span
                           class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
@@ -457,7 +457,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/machine-learning/pytorch-preliminary/"
-      >Summary of Common Deep Learning Models</a
+      >Fundamental Knowledge of PyTorch</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -466,7 +466,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Summary of Common Deep Learning Models
+        Fundamental Knowledge of PyTorch
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -492,6 +492,8 @@
   
 
   
+    
+  
 
   
 
@@ -499,7 +501,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-04-20 00:00:00 &#43;0000 UTC">20 April 2023</time>
+      <time datetime="2023-04-20 00:00:00 &#43;0000 UTC">20 April 2023</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -515,9 +517,67 @@
     </header>
     <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
       
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="-ms-5 block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="-ms-5 border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#some-example-code-and-explanations">Some Example Code and Explanations</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
       <div class="min-w-0 min-h-0 max-w-prose grow">
         
 
+<p>First, here are some references for PyTorch:</p>
+<ol>
+<li><a
+  href="https://pytorch.org/docs/stable/index.html"
+  
+  target="_blank" rel="noreferrer noopener"
+>PyTorch Official Documentation</a></li>
+<li><a
+  href="https://zh.d2l.ai/index.html"
+  
+  target="_blank" rel="noreferrer noopener"
+>Dive into Deep Learning</a></li>
+</ol>
+<h2 id="some-example-code-and-explanations" class="relative group">Some Example Code and Explanations <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#some-example-code-and-explanations" aria-label="Anchor">#</a></span></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span> <span class="k">as</span> <span class="nn">pt</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">X</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span> <span class="c1"># Equivalent to the next line (specify one dimension and automatically calculate the other)</span>
+</span></span><span class="line"><span class="cl"><span class="n">XX</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">pt</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span> <span class="c1"># Create a four-dimensional tensor of zeros</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span> <span class="c1"># Random tensor from a normal distribution</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">pt</span><span class="o">.</span><span class="n">tensor</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">2</span><span class="p">]])</span> <span class="c1"># Manually input a 2D tensor</span>
+</span></span><span class="line"><span class="cl"><span class="n">addd</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="c1"># Element-wise addition</span>
+</span></span><span class="line"><span class="cl"><span class="n">subb</span> <span class="o">=</span> <span class="n">x</span> <span class="o">-</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl"><span class="n">mutt</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl"><span class="n">divw</span> <span class="o">=</span> <span class="n">x</span> <span class="o">/</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl"><span class="n">poww</span> <span class="o">=</span> <span class="n">x</span> <span class="o">**</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl"><span class="n">expp</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">rcat</span> <span class="o">=</span> <span class="n">pt</span><span class="o">.</span><span class="n">cat</span><span class="p">((</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">),</span><span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="c1"># Concatenate along rows, dim=1 concatenates along columns</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">==</span> <span class="n">y</span> <span class="c1"># Check if the values at corresponding positions in two matrices are equal and output a boolean matrix</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="c1"># Sum all values in the tensor</span>
+</span></span></code></pre></div><p>The broadcasting mechanism is used to perform element-wise operations. The mechanism works as follows:</p>
+<ol>
+<li>The arrays are extended by copying the elements appropriately so that, after the transformation, the two tensors have the same shape.</li>
+<li>Element-wise operations are performed on the resulting arrays.</li>
+</ol>
+<p>PyTorch constructs a computational graph based on the designed model to perform automatic differentiation and calculate gradients, and then performs backpropagation to update the parameters.</p>
 
       </div>
     </section>
@@ -593,7 +653,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://twitter.com/intent/tweet/?url=/machine-learning/pytorch-preliminary/&amp;text=Summary%20of%20Common%20Deep%20Learning%20Models"
+          href="https://twitter.com/intent/tweet/?url=/machine-learning/pytorch-preliminary/&amp;text=Fundamental%20Knowledge%20of%20PyTorch"
           title="Tweet on Twitter"
           aria-label="Tweet on Twitter"
           target="_blank"
@@ -606,7 +666,7 @@
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://reddit.com/submit/?url=/machine-learning/pytorch-preliminary/&amp;resubmit=true&amp;title=Summary%20of%20Common%20Deep%20Learning%20Models"
+          href="https://reddit.com/submit/?url=/machine-learning/pytorch-preliminary/&amp;resubmit=true&amp;title=Fundamental%20Knowledge%20of%20PyTorch"
           title="Submit to Reddit"
           aria-label="Submit to Reddit"
           target="_blank"
@@ -629,7 +689,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/machine-learning/macos-tf-install/">
+            <a class="group flex" href="/machine-learning/pytorch-preliminary/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -638,24 +698,7 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >MacOS Tensorflow Installation Guide (For Apple Silicon)</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-03-31 00:00:00 &#43;0000 UTC">31 March 2023</time>
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-            <a class="group flex text-right" href="/machine-learning/pytorch-preliminary/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Fundamental Knowledge of PyTorch</span
+                  >Summary of Common Deep Learning Models</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
@@ -663,12 +706,10 @@
                   
                 </span>
               </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
             </a>
+          
+        </span>
+        <span>
           
         </span>
       </div>
@@ -680,6 +721,17 @@
     </footer>
   </article>
 
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
         
       </main><footer class="py-10 print:hidden">
   

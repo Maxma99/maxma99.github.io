@@ -4,11 +4,25 @@
   
     
       <url>
+            <loc>/optimization/ml-opt-algo/</loc>
+            <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>/machine-learning/pytorch-preliminary/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
   
+    
+  
+    
+      <url>
+            <loc>/optimization/</loc>
+            <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+          </url>
     
   
     
@@ -28,24 +42,8 @@
     
   
     
-  
-    
       <url>
             <loc>/machine-learning/</loc>
-            <lastmod>2023-04-20T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>/optimization/ml-opt-algo/</loc>
-            <lastmod>2023-04-20T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>/optimization/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
