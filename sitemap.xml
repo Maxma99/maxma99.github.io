@@ -13,32 +13,18 @@
   
     
       <url>
-            <loc>https://maxma99.github.io/optimization/ml-opt-algo/</loc>
+            <loc>https://maxma99.github.io/posts/ml-opt-algo/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>https://maxma99.github.io/machine-learning/pytorch-preliminary/</loc>
+            <loc>https://maxma99.github.io/posts/pytorch-preliminary/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
   
-    
-  
-    
-      <url>
-            <loc>https://maxma99.github.io/machine-learning/</loc>
-            <lastmod>2023-04-20T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://maxma99.github.io/optimization/</loc>
-            <lastmod>2023-04-20T00:00:00+00:00</lastmod>
-          </url>
     
   
     
@@ -50,7 +36,14 @@
   
     
       <url>
-            <loc>https://maxma99.github.io/machine-learning/pytorch-preliminary/</loc>
+            <loc>https://maxma99.github.io/posts/</loc>
+            <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://maxma99.github.io/posts/pytorch-preliminary/</loc>
             <lastmod>2023-04-20T00:00:00+00:00</lastmod>
           </url>
     
@@ -66,14 +59,7 @@
   
     
       <url>
-            <loc>https://maxma99.github.io/algorithm/</loc>
-            <lastmod>2023-04-10T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://maxma99.github.io/algorithm/regex-notes/</loc>
+            <loc>https://maxma99.github.io/posts/regex-notes/</loc>
             <lastmod>2023-04-10T00:00:00+00:00</lastmod>
           </url>
     
@@ -82,7 +68,7 @@
   
     
       <url>
-            <loc>https://maxma99.github.io/machine-learning/macos-tf-install/</loc>
+            <loc>https://maxma99.github.io/posts/macos-tf-install/</loc>
             <lastmod>2023-03-31T00:00:00+00:00</lastmod>
           </url>
     
@@ -91,18 +77,24 @@
   
     
       <url>
-            <loc>https://maxma99.github.io/algorithm/sorting/</loc>
+            <loc>https://maxma99.github.io/posts/sorting/</loc>
             <lastmod>2023-03-28T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>https://maxma99.github.io/algorithm/binarysearch/</loc>
+            <loc>https://maxma99.github.io/posts/binarysearch/</loc>
             <lastmod>2023-03-21T00:00:00+00:00</lastmod>
           </url>
     
   
+    
+  
+    
+      <url>
+            <loc>https://maxma99.github.io/about/</loc>
+          </url>
     
   
 </urlset>

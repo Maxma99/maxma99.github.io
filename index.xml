@@ -18,64 +18,64 @@
     
     <item>
       <title>Common Optimization Algorithms in Machine Learning</title>
-      <link>https://maxma99.github.io/optimization/ml-opt-algo/</link>
+      <link>https://maxma99.github.io/posts/ml-opt-algo/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://maxma99.github.io/optimization/ml-opt-algo/</guid>
+      <guid>https://maxma99.github.io/posts/ml-opt-algo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fundamental Knowledge of PyTorch</title>
-      <link>https://maxma99.github.io/machine-learning/pytorch-preliminary/</link>
+      <link>https://maxma99.github.io/posts/pytorch-preliminary/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://maxma99.github.io/machine-learning/pytorch-preliminary/</guid>
+      <guid>https://maxma99.github.io/posts/pytorch-preliminary/</guid>
       <description>Fundamental knowledge of PyTorch</description>
     </item>
     
     <item>
       <title>Summary of Common Deep Learning Models</title>
-      <link>https://maxma99.github.io/machine-learning/pytorch-preliminary/</link>
+      <link>https://maxma99.github.io/posts/pytorch-preliminary/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://maxma99.github.io/machine-learning/pytorch-preliminary/</guid>
+      <guid>https://maxma99.github.io/posts/pytorch-preliminary/</guid>
       <description>Some fundamental knowledge of PyTorch</description>
     </item>
     
     <item>
       <title>Quick Start to Regular Expressions</title>
-      <link>https://maxma99.github.io/algorithm/regex-notes/</link>
+      <link>https://maxma99.github.io/posts/regex-notes/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://maxma99.github.io/algorithm/regex-notes/</guid>
+      <guid>https://maxma99.github.io/posts/regex-notes/</guid>
       <description>A quick start guide to regular expressions</description>
     </item>
     
     <item>
       <title>MacOS Tensorflow Installation Guide (For Apple Silicon)</title>
-      <link>https://maxma99.github.io/machine-learning/macos-tf-install/</link>
+      <link>https://maxma99.github.io/posts/macos-tf-install/</link>
       <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://maxma99.github.io/machine-learning/macos-tf-install/</guid>
+      <guid>https://maxma99.github.io/posts/macos-tf-install/</guid>
       <description>Step-by-step guide to installing Tensorflow on MacOS for Apple Silicon</description>
     </item>
     
     <item>
       <title>Sorting Algorithms</title>
-      <link>https://maxma99.github.io/algorithm/sorting/</link>
+      <link>https://maxma99.github.io/posts/sorting/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://maxma99.github.io/algorithm/sorting/</guid>
+      <guid>https://maxma99.github.io/posts/sorting/</guid>
       <description>Under Construction There are numerous sorting algorithms, and this article will introduce ten popular and commonly used sorting algorithms, including bubble sort, insertion sort, selection sort, merge sort, quicksort, heap sort, counting sort, bucket sort, radix sort, and shell sort, among others.</description>
     </item>
     
     <item>
       <title>Binary Search</title>
-      <link>https://maxma99.github.io/algorithm/binarysearch/</link>
+      <link>https://maxma99.github.io/posts/binarysearch/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://maxma99.github.io/algorithm/binarysearch/</guid>
+      <guid>https://maxma99.github.io/posts/binarysearch/</guid>
       <description></description>
     </item>
     
