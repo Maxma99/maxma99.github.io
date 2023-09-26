@@ -16,5 +16,14 @@
       <description>This article gives some example on ChatGPT prompts and other chatbots prompts, you can copy and paste them in the chatbot to use them as you wish.</description>
     </item>
     
+    <item>
+      <title>Quick Start to Regular Expressions</title>
+      <link>https://maxma99.github.io/others/regex-notes/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://maxma99.github.io/others/regex-notes/</guid>
+      <description>A quick start guide to regular expressions</description>
+    </item>
+    
   </channel>
 </rss>
