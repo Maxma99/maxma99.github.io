@@ -1,83 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Max&#39;s Blog</title>
+    <title>Tags on Max</title>
     <link>https://maxma99.github.io/tags/</link>
-    <description>Recent content in Tags on Max&#39;s Blog</description>
+    <description>Recent content in Tags on Max</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 24 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://maxma99.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 24 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxma99.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimization</title>
       <link>https://maxma99.github.io/tags/optimization/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://maxma99.github.io/tags/optimization/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Subgradients</title>
       <link>https://maxma99.github.io/tags/subgradients/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://maxma99.github.io/tags/subgradients/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Future</title>
       <link>https://maxma99.github.io/tags/future/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://maxma99.github.io/tags/future/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ChatGPT</title>
       <link>https://maxma99.github.io/tags/chatgpt/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://maxma99.github.io/tags/chatgpt/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Machine Learning</title>
       <link>https://maxma99.github.io/tags/machine-learning/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://maxma99.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Regular Expressions</title>
       <link>https://maxma99.github.io/tags/regular-expressions/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://maxma99.github.io/tags/regular-expressions/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Algorithms</title>
       <link>https://maxma99.github.io/tags/algorithms/</link>
       <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://maxma99.github.io/tags/algorithms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>BinarySearch</title>
       <link>https://maxma99.github.io/tags/binarysearch/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://maxma99.github.io/tags/binarysearch/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

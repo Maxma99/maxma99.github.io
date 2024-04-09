@@ -17,8 +17,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="rgb(255,255,255)" />
   
-  <title>Sorting Algorithms &middot; Max</title>
-    <meta name="title" content="Sorting Algorithms &middot; Max" />
+  <title>Common Optimization Algorithms in Machine Learning &middot; Max</title>
+    <meta name="title" content="Common Optimization Algorithms in Machine Learning &middot; Max" />
   
   
   
@@ -77,7 +77,7 @@
   
   
   
-  <link rel="canonical" href="https://maxma99.github.io/posts/sorting/" />
+  <link rel="canonical" href="https://maxma99.github.io/machine_learning/ml-opt-algo/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -92,14 +92,14 @@
   
   
   
-  <meta property="og:title" content="Sorting Algorithms" />
+  <meta property="og:title" content="Common Optimization Algorithms in Machine Learning" />
 <meta property="og:description" content=" " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://maxma99.github.io/posts/sorting/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-03-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-03-28T00:00:00+00:00" />
+<meta property="og:url" content="https://maxma99.github.io/machine_learning/ml-opt-algo/" /><meta property="article:section" content="machine_learning" />
+<meta property="article:published_time" content="2023-04-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-04-20T00:00:00+00:00" />
 
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Sorting Algorithms"/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Common Optimization Algorithms in Machine Learning"/>
 <meta name="twitter:description" content=" "/>
 
   
@@ -107,27 +107,27 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Posts",
-    "name": "Sorting Algorithms",
-    "headline": "Sorting Algorithms",
+    "articleSection": "Machine_Learnings",
+    "name": "Common Optimization Algorithms in Machine Learning",
+    "headline": "Common Optimization Algorithms in Machine Learning",
     "description": " ",
-    "abstract": "Under Construction There are numerous sorting algorithms, and this article will introduce ten popular and commonly used sorting algorithms, including bubble sort, insertion sort, selection sort, merge sort, quicksort, heap sort, counting sort, bucket sort, radix sort, and shell sort, among others.",
+    
     "inLanguage": "zh-cn",
-    "url" : "https:\/\/maxma99.github.io\/posts\/sorting\/",
+    "url" : "https:\/\/maxma99.github.io\/machine_learning\/ml-opt-algo\/",
     "author" : {
       "@type": "Person",
       "name": "Max"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-03-28T00:00:00\u002b00:00",
-    "datePublished": "2023-03-28T00:00:00\u002b00:00",
+    "dateCreated": "2023-04-20T00:00:00\u002b00:00",
+    "datePublished": "2023-04-20T00:00:00\u002b00:00",
     
-    "dateModified": "2023-03-28T00:00:00\u002b00:00",
+    "dateModified": "2023-04-20T00:00:00\u002b00:00",
     
-    "keywords": ["Algorithms"],
+    "keywords": ["Machine Learning"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "98"
+    "wordCount": "0"
   }
   </script>
 
@@ -458,8 +458,8 @@
   <li class=" inline">
     <a
       class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
-      href="/posts/"
-      >Posts</a
+      href="/machine_learning/"
+      >Machine_Learnings</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -467,8 +467,8 @@
   <li class="hidden inline">
     <a
       class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
-      href="/posts/sorting/"
-      >Sorting Algorithms</a
+      href="/machine_learning/ml-opt-algo/"
+      >Common Optimization Algorithms in Machine Learning</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -477,7 +477,7 @@
 
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Sorting Algorithms
+        Common Optimization Algorithms in Machine Learning
       </h1>
       
         <div class="mb-12 mt-8 text-base text-neutral-500 print:hidden dark:text-neutral-400">
@@ -504,8 +504,6 @@
   
 
   
-    
-  
 
   
 
@@ -513,7 +511,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-03-28 00:00:00 &#43;0000 UTC">2023 March 28</time><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span>
+      <time datetime="2023-04-20 00:00:00 &#43;0000 UTC">2023 April 20</time>
     
 
     
@@ -530,51 +528,10 @@
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
-        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
-          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
-            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
-  <summary
-    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
-  >
-    目录
-  </summary>
-  <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#bubble-sort">Bubble Sort</a></li>
-    <li><a href="#insertion-sort">Insertion Sort</a></li>
-    <li><a href="#selection-sort">Selection Sort</a></li>
-    <li><a href="#merge-sort">Merge Sort</a></li>
-    <li><a href="#quick-sort">Quick Sort</a></li>
-    <li><a href="#heap-sort">Heap Sort</a></li>
-    <li><a href="#counting-sort">Counting Sort</a></li>
-    <li><a href="#bucket-sort">Bucket Sort</a></li>
-    <li><a href="#radix-sort">Radix Sort</a></li>
-    <li><a href="#shell-sort">Shell Sort</a></li>
-  </ul>
-</nav>
-  </div>
-</details>
-
-          </div>
-        </div>
-      
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <span class="flex">
-  <span
-    class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    
-Under Construction
-
-  </span>
-</span>
+        
 
 
-
-
-<p>There are numerous sorting algorithms, and this article will introduce ten popular and commonly used sorting algorithms, including bubble sort, insertion sort, selection sort, merge sort, quicksort, heap sort, counting sort, bucket sort, radix sort, and shell sort, among others. However, please note that this article serves as a brief overview and implementation of these algorithms, and for more detailed information, you can refer to the &ldquo;Sorting Algorithms&rdquo; section on the Runoob tutorial website <a href="https://www.runoob.com/w3cnote/ten-sorting-algorithm.html" target="_blank" rel="noreferrer">here</a>.</p>
-<h2 id="bubble-sort" class="relative group">Bubble Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#bubble-sort" aria-label="锚点">#</a></span></h2><h2 id="insertion-sort" class="relative group">Insertion Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#insertion-sort" aria-label="锚点">#</a></span></h2><h2 id="selection-sort" class="relative group">Selection Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#selection-sort" aria-label="锚点">#</a></span></h2><h2 id="merge-sort" class="relative group">Merge Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#merge-sort" aria-label="锚点">#</a></span></h2><h2 id="quick-sort" class="relative group">Quick Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#quick-sort" aria-label="锚点">#</a></span></h2><h2 id="heap-sort" class="relative group">Heap Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#heap-sort" aria-label="锚点">#</a></span></h2><h2 id="counting-sort" class="relative group">Counting Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#counting-sort" aria-label="锚点">#</a></span></h2><h2 id="bucket-sort" class="relative group">Bucket Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#bucket-sort" aria-label="锚点">#</a></span></h2><h2 id="radix-sort" class="relative group">Radix Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#radix-sort" aria-label="锚点">#</a></span></h2><h2 id="shell-sort" class="relative group">Shell Sort <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#shell-sort" aria-label="锚点">#</a></span></h2>
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
@@ -649,7 +606,7 @@ Under Construction
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://twitter.com/intent/tweet/?url=https://maxma99.github.io/posts/sorting/&amp;text=Sorting%20Algorithms"
+          href="https://twitter.com/intent/tweet/?url=https://maxma99.github.io/machine_learning/ml-opt-algo/&amp;text=Common%20Optimization%20Algorithms%20in%20Machine%20Learning"
           title="分享到 Twitter"
           aria-label="分享到 Twitter"
           target="_blank"
@@ -662,7 +619,7 @@ Under Construction
       
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-          href="https://reddit.com/submit/?url=https://maxma99.github.io/posts/sorting/&amp;resubmit=true&amp;title=Sorting%20Algorithms"
+          href="https://reddit.com/submit/?url=https://maxma99.github.io/machine_learning/ml-opt-algo/&amp;resubmit=true&amp;title=Common%20Optimization%20Algorithms%20in%20Machine%20Learning"
           title="提交到 Reddit"
           aria-label="提交到 Reddit"
           target="_blank"
@@ -685,7 +642,7 @@ Under Construction
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2/">
+            <a class="group flex" href="/machine_learning/pytorch-preliminary/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -694,11 +651,11 @@ Under Construction
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >二份搜索</span
+                  >Fundamental Knowledge of PyTorch</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-03-21 00:00:00 &#43;0000 UTC">2023 March 21</time>
+                    <time datetime="2023-04-20 00:00:00 &#43;0000 UTC">2023 April 20</time>
                   
                 </span>
               </span>
@@ -706,25 +663,6 @@ Under Construction
           
         </span>
         <span>
-          
-            <a class="group flex text-right" href="/posts/future-planning/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Future Contents</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-07-09 00:00:00 &#43;0000 UTC">2023 July 9</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
-            </a>
           
         </span>
       </div>
