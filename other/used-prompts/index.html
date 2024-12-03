@@ -15,7 +15,7 @@
 ><head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta name="theme-color" content="#FFFFFF" />
   
   <title>ChatGPT提示词分享 &middot; Max的博客</title>
     <meta name="title" content="ChatGPT提示词分享 &middot; Max的博客" />
@@ -26,8 +26,8 @@
   
   <script
     type="text/javascript"
-    src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js"
-    integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="
+    src="/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
   ></script>
   
   
@@ -40,8 +40,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.5ea5a2723a6600ec162c3206366e9a4fbb0c82f79711e724dea2dfe92a2a864f.css"
-    integrity="sha256-XqWicjpmAOwWLDIGNm6aT7sMgveXEeck3qLf6Soqhk8="
+    href="/css/main.bundle.min.48535ac70d65dd8e3abda7c887626471b24eff632b187d71cbf4ff671eaa0221.css"
+    integrity="sha256-SFNaxw1l3Y46vafIh2JkcbJO/2MrGH1xy/T/Zx6qAiE="
   />
   
     
@@ -70,8 +70,8 @@
       id="script-bundle"
       src="/js/main.bundle.min.f64817246a3814fe8ac69eaa744f58dafd97df187e7f28274423d3de185d4625.js"
       integrity="sha256-9kgXJGo4FP6Kxp6qdE9Y2v2X3xh&#43;fygnRCPT3hhdRiU="
-      data-copy="复制"
-      data-copied="已复制"
+      data-copy=""
+      data-copied=""
     ></script>
   
   
@@ -143,7 +143,32 @@
     "wordCount": "254"
   }
   </script>
-
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "https://maxma99.github.io/",
+       "name": "",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "https://maxma99.github.io/other/",
+       "name": "其他",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "Chat Gpt提示词分享",
+       "position": 3
+     }
+   ]
+ }
+  </script>
 
   
   <meta name="author" content="Max" />
@@ -165,25 +190,26 @@
   
   
   
+  
 
 
   
   
 </head>
 <body
-    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral"
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
   >
     <div id="the-top" class="absolute flex self-center">
       <a
         class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
         href="#main-content"
         ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
-        >跳到主要内容</a
+        ></a
       >
     </div>
     
     
-      <header class="py-6 font-semibold text-neutral-900 print:hidden sm:py-10 dark:text-neutral">
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
   <nav class="flex items-start justify-between sm:items-center">
     
     <div class="z-40 flex flex-row items-center">
@@ -240,23 +266,6 @@
                 <li class="group mb-1">
                   
                     <a
-                      href="/opt/"
-                      title=""
-                      onclick="close_menu()"
-                      
-                      ><span
-                          class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                          >优化</span
-                        >
-                      </a
-                    >
-                  
-                </li>
-              
-                
-                <li class="group mb-1">
-                  
-                    <a
                       href="/other/"
                       title=""
                       onclick="close_menu()"
@@ -274,7 +283,7 @@
                 <li class="group mb-1">
                   
                     <a
-                      href=""
+                      href="/about/"
                       title=""
                       onclick="close_menu()"
                       
@@ -294,7 +303,7 @@
                     
                       <button
                         id="search-button-1"
-                        title="搜索 (/)"
+                        title=""
                       >
                         
                           <span
@@ -339,22 +348,6 @@
             <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
-                  href="/opt/"
-                  title=""
-                  
-                  ><span
-                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
-                      >优化</span
-                    >
-                  </a
-                >
-              
-            </li>
-          
-            
-            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
-              
-                <a
                   href="/other/"
                   title=""
                   
@@ -371,7 +364,7 @@
             <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               
                 <a
-                  href=""
+                  href="/about/"
                   title=""
                   
                   ><span
@@ -390,7 +383,7 @@
                 
                   <button
                     id="search-button-2"
-                    title="搜索 (/)"
+                    title=""
                   >
                     
                       <span
@@ -421,7 +414,7 @@
   <article>
     <header class="max-w-prose">
       
-        <ol class="text-sm text-neutral-500 print:hidden dark:text-neutral-400">
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
   
   
     
@@ -458,11 +451,11 @@
 
 
       
-      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         ChatGPT提示词分享
       </h1>
       
-        <div class="mb-12 mt-8 text-base text-neutral-500 print:hidden dark:text-neutral-400">
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
           
 
 
@@ -493,7 +486,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-04-20 00:00:00 &#43;0000 UTC">2023年4月20日</time>
+      <time datetime="2023-04-20 00:00:00 &#43;0000 UTC"></time>
     
 
     
@@ -511,12 +504,12 @@
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
         <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
-          <div class="toc pe-5 print:hidden lg:sticky lg:top-10">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
             <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
   <summary
     class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
   >
-    目录
+    
   </summary>
   <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
@@ -539,7 +532,7 @@
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
         <p>这篇文章提供了一些ChatGPT提示和其他聊天机器人提示的例子，您可以将它们复制粘贴到聊天机器人中按照您的需求使用。有些提示是用中文给出的，有些则是用英文给出的，您可以使用第一个提示来翻译其他中文提示，翻译提示会同时以中文和英文给出。</p>
-<h2 id="chatgpt或其他聊天机器人提示" class="relative group">ChatGPT（或其他聊天机器人）提示 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#chatgpt%e6%88%96%e5%85%b6%e4%bb%96%e8%81%8a%e5%a4%a9%e6%9c%ba%e5%99%a8%e4%ba%ba%e6%8f%90%e7%a4%ba" aria-label="锚点">#</a></span></h2><h3 id="翻译专家" class="relative group">翻译专家 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%bf%bb%e8%af%91%e4%b8%93%e5%ae%b6" aria-label="锚点">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
+<h2 id="chatgpt或其他聊天机器人提示" class="relative group">ChatGPT（或其他聊天机器人）提示 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#chatgpt%e6%88%96%e5%85%b6%e4%bb%96%e8%81%8a%e5%a4%a9%e6%9c%ba%e5%99%a8%e4%ba%ba%e6%8f%90%e7%a4%ba" aria-label="">#</a></span></h2><h3 id="翻译专家" class="relative group">翻译专家 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%bf%bb%e8%af%91%e4%b8%93%e5%ae%b6" aria-label="">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">I would like to appoint you as a translation expert with above-average intelligence and proficiency in translation. Your translation skills are powerful, and you are capable of translating various languages. I will state my requirements before each translation, and I will provide the sentences for you to translate after that, separated by a pair of %%%. You only need to provide the translations. Here&#39;s an example:
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">Please translate the following sentence into Chinese without altering the original Markdown formatting, code formatting, and Katex formulas:
@@ -560,11 +553,11 @@
 </span></span><span class="line"><span class="cl">聚类算法，SVM，生成对抗网络，决策树，回归方法，集成学习，贝叶斯分类器，降维和度量学习，计算学习理论，各类梯度下降法
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">%%%
-</span></span></code></pre></div><h3 id="心理健康顾问医生" class="relative group">心理健康顾问（医生） <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%bf%83%e7%90%86%e5%81%a5%e5%ba%b7%e9%a1%be%e9%97%ae%e5%8c%bb%e7%94%9f" aria-label="锚点">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
+</span></span></code></pre></div><h3 id="心理健康顾问医生" class="relative group">心理健康顾问（医生） <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%bf%83%e7%90%86%e5%81%a5%e5%ba%b7%e9%a1%be%e9%97%ae%e5%8c%bb%e7%94%9f" aria-label="">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">我想让你担任心理健康顾问。我将为您提供一个寻求指导和建议的人，以管理他们的情绪、压力、焦虑和其他心理健康问题。您应该利用您的认知行为疗法、冥想技巧、正念练习和其他治疗方法的知识来制定个人可以实施的策略，以改善他们的整体健康状况。现在我要求你向我提问，像一个心理医生一样来询问我的详细的信息来增进你对我目前状况的了解，然后你要像一个心理医生一样对我进行可能的诊断，为我的心理健康提出建议和进行帮助。
-</span></span></code></pre></div><h3 id="提示工程助理顾问" class="relative group">提示工程助理顾问 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%8f%90%e7%a4%ba%e5%b7%a5%e7%a8%8b%e5%8a%a9%e7%90%86%e9%a1%be%e9%97%ae" aria-label="锚点">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
+</span></span></code></pre></div><h3 id="提示工程助理顾问" class="relative group">提示工程助理顾问 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%8f%90%e7%a4%ba%e5%b7%a5%e7%a8%8b%e5%8a%a9%e7%90%86%e9%a1%be%e9%97%ae" aria-label="">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">我想让你担任提示工程助理顾问（Prompt Assistant）。我将为您提供一个寻求ChatGPT的提示工程指导(ChatGPT prompt assist)的人，以帮助他们更好地使用ChatGPT。您应该利用您自己，根据ChatGPT的特性与知识来制定个人可以实施的策略，越详尽越好，以改善他们的ChatGPT使用状况。现在我要求你向我提问，像一个助手一样来询问我的详细的信息来增进你对我目前状况的了解，以及问我想要ChatGPT来做什么，然后你要像一个提示工程助理顾问一样跟我说该如何向ChatGPT提问来获得更多的信息，为我的ChatGPT的使用提出建议和进行帮助。
-</span></span></code></pre></div><h3 id="学者" class="relative group">学者 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%ad%a6%e8%80%85" aria-label="锚点">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
+</span></span></code></pre></div><h3 id="学者" class="relative group">学者 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%ad%a6%e8%80%85" aria-label="">#</a></span></h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">Act as an academician whose expertise is reading and summarizing scientific papers. You are given paragraphs from a research paper. Then I will ask you questions about this paper. If I don&#39;t ask any questions, you should write a summary of the provided contexts. If I ask a question, you should write an answer for the question based on the provided contexts. If the context is irrelevant, reply &#34;I cannot answer. For each sentence in your answer, indicate which sources most support it via valid citation markers at the end of sentences, like (Example2022). Answer in an unbiased and scholarly tone. Make clear what is your opinion. Try to use direct quotes to support arguments.
 </span></span></code></pre></div><p>来源：</p>
 <ol>
@@ -587,7 +580,7 @@
     <div class="place-self-center">
       
         <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-          作者
+          
         </div>
         <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
           Max
@@ -625,8 +618,8 @@
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://twitter.com/intent/tweet/?url=https://maxma99.github.io/other/used-prompts/&amp;text=ChatGPT%e6%8f%90%e7%a4%ba%e8%af%8d%e5%88%86%e4%ba%ab"
-          title="分享到 Twitter"
-          aria-label="分享到 Twitter"
+          title=""
+          aria-label=""
           target="_blank"
           rel="noopener noreferrer"
           ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
@@ -638,8 +631,8 @@
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://tootpick.org/#text=https://maxma99.github.io/other/used-prompts/%20ChatGPT%e6%8f%90%e7%a4%ba%e8%af%8d%e5%88%86%e4%ba%ab"
-          title="嘟嘟到 Mastodon"
-          aria-label="嘟嘟到 Mastodon"
+          title=""
+          aria-label=""
           target="_blank"
           rel="noopener noreferrer"
           ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
@@ -651,8 +644,8 @@
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://telegram.me/share/url?text=https://maxma99.github.io/other/used-prompts/&amp;url=ChatGPT%e6%8f%90%e7%a4%ba%e8%af%8d%e5%88%86%e4%ba%ab"
-          title="分享到 Telegram"
-          aria-label="分享到 Telegram"
+          title=""
+          aria-label=""
           target="_blank"
           rel="noopener noreferrer"
           ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
@@ -664,8 +657,8 @@
         <a
           class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
           href="https://service.weibo.com/share/share.php?url=https://maxma99.github.io/other/used-prompts/&amp;appkey=&amp;title=ChatGPT%e6%8f%90%e7%a4%ba%e8%af%8d%e5%88%86%e4%ba%ab&amp;pic=&amp;ralateUid=&amp;lang"
-          title="分享到 微博"
-          aria-label="分享到 微博"
+          title=""
+          aria-label=""
           target="_blank"
           rel="noopener noreferrer"
           ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="currentColor" d="M407 177.6c7.6-24-13.4-46.8-37.4-41.7-22 4.8-28.8-28.1-7.1-32.8 50.1-10.9 92.3 37.1 76.5 84.8-6.8 21.2-38.8 10.8-32-10.3zM214.8 446.7C108.5 446.7 0 395.3 0 310.4c0-44.3 28-95.4 76.3-143.7C176 67 279.5 65.8 249.9 161c-4 13.1 12.3 5.7 12.3 6 79.5-33.6 140.5-16.8 114 51.4-3.7 9.4 1.1 10.9 8.3 13.1 135.7 42.3 34.8 215.2-169.7 215.2zm143.7-146.3c-5.4-55.7-78.5-94-163.4-85.7-84.8 8.6-148.8 60.3-143.4 116s78.5 94 163.4 85.7c84.8-8.6 148.8-60.3 143.4-116zM347.9 35.1c-25.9 5.6-16.8 43.7 8.3 38.3 72.3-15.2 134.8 52.8 111.7 124-7.4 24.2 29.1 37 37.4 12 31.9-99.8-55.1-195.9-157.4-174.3zm-78.5 311c-17.1 38.8-66.8 60-109.1 46.3-40.8-13.1-58-53.4-40.3-89.7 17.7-35.4 63.1-55.4 103.4-45.1 42 10.8 63.1 50.2 46 88.5zm-86.3-30c-12.9-5.4-30 .3-38 12.9-8.3 12.9-4.3 28 8.6 34 13.1 6 30.8 .3 39.1-12.9 8-13.1 3.7-28.3-9.7-34zm32.6-13.4c-5.1-1.7-11.4 .6-14.3 5.4-2.9 5.1-1.4 10.6 3.7 12.9 5.1 2 11.7-.3 14.6-5.4 2.8-5.2 1.1-10.9-4-12.9z"/></svg></span></a
@@ -698,7 +691,7 @@
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-04-10 00:00:00 &#43;0000 UTC">2023年4月10日</time>
+                    <time datetime="2023-04-10 00:00:00 &#43;0000 UTC"></time>
                   
                 </span>
               </span>
@@ -717,19 +710,23 @@
     </footer>
   </article>
 
-        
-          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
-            <a
-              href="#the-top"
-              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-              aria-label="回到顶部"
-              title="回到顶部"
-            >
-              &uarr;
-            </a>
-          </div>
-        
-      </main><footer class="py-10 print:hidden">
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label=""
+            title=""
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
   
   
     <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
@@ -767,8 +764,7 @@
         <p class="text-xs text-neutral-500 dark:text-neutral-400">
           
           
-          由 <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a> 强力驱动
+          
         </p>
       
     </div>
@@ -783,14 +779,14 @@
           <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
             <div
               class="flex h-12 w-12 items-center justify-center dark:hidden"
-              title="切换为深色模式"
+              title=""
             >
               <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
 </span>
             </div>
             <div
               class="hidden h-12 w-12 items-center justify-center dark:flex"
-              title="切换为浅色模式"
+              title=""
             >
               <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
 </span>
@@ -805,7 +801,7 @@
 </footer>
 <div
   id="search-wrapper"
-  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm sm:p-6 md:p-[10vh] lg:p-[12vh] dark:bg-neutral-900/50"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
   data-url="https://maxma99.github.io/"
 >
   <div
@@ -822,14 +818,14 @@
           type="search"
           id="search-query"
           class="mx-1 flex h-12 flex-auto appearance-none bg-transparent focus:outline-dotted focus:outline-2 focus:outline-transparent"
-          placeholder="搜索"
+          placeholder=""
           tabindex="0"
         />
       </form>
       <button
         id="close-search-button"
         class="flex h-8 w-8 items-center justify-center text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-        title="关闭 (Esc)"
+        title=""
       >
         <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
 </span>
